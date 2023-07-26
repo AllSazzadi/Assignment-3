@@ -46,6 +46,7 @@
                         <li><a>Shop</a></li>
                         <li><a>All Fruits</a></li>
                     </ul>
+                    <!-- logo -->
                     <div class="flex-1">
                         <img src="media/images/logo.png" alt="">
                         <h1 class="text-black md:text-white lg:text-white text-4xl font-black">Fruit Burst</h1>
@@ -197,8 +198,8 @@
         <!-- Deal of the day Section Start -->
         <section class="container mx-auto">
             <!-- Count Down -->
-            <div class="lg:flex mt-52 mb-16 gap-10">
-                <div class="flex-1">
+            <div class="lg:flex mt-10 lg:mt-52 mb-16 gap-10">
+                <div class="flex-1 text-center lg:text-left">
                     <h3 class="text-5xl font-extrabold">Deal of the day</h3>
                     <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
                         Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -655,9 +656,9 @@
                 <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
                     Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
-            <div class="grid lg:grid-cols-3 gap-5 lg:gap-3 mt-10">
+            <div class="grid lg:grid-cols-3 gap-5 lg:gap-3 mt-10 justify-center">
                 <!-- Image -->
-                <div class="sm:grid md:grid lg:hidden">
+                <div class="sm:grid md:grid lg:hidden justify-center">
                     <img src="media/images/whychoose1.png" alt="">
                 </div>
                 <!--  -->
@@ -727,10 +728,33 @@
         </section>
 
     </main>
-
-    <footer>
-
-    </footer>
 </body>
+<footer class="footer footer-center mt-10 p-10 bg-[#121212] text-base-content rounded">
 
+    <div class="flex-1 flex">
+        <img src="media/images/logo.png" alt="">
+        <h1 class="text-white text-4xl font-black">Fruit Burst</h1>
+    </div>
+    <div class="grid grid-flow-col gap-4 text-white">
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">About Us</a>
+        <a class="link link-hover">Shop</a>
+        <a class="link link-hover">All Fruits</a>
+        <a class="link link-hover">Support</a>
+        <a class="link link-hover">My Account</a>
+    </div>
+    <div>
+        <div class="grid grid-flow-col gap-8">
+            <a><i class="fa-brands fa-twitter fa-lg text-white"></i></a>
+            <a><i class="fa-brands fa-facebook-f fa-lg text-white"></i></a>
+            <a><i class="fa-brands fa-youtube fa-lg text-white"></i></a>
+            <a><i class="fa-brands fa-linkedin-in fa-lg text-white"></i></a>
+            <a><i class="fa-brands fa-instagram fa-lg text-white"></i></a>
+            <a><i class="fa-brands fa-apple fa-lg text-white"></i></a>
+        </div>
+    </div>
+    <div>
+        <p class="text-white">Copyright © 2023 - All right reserved</p>
+    </div>
+</footer>
 </html>
