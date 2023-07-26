@@ -52,9 +52,10 @@
                         <h1 class="text-black md:text-white lg:text-white text-4xl font-black">Fruit Burst</h1>
                     </div>
                     <div class="flex-none gap-2">
-                        <div>
+                        <div class="relative hidden md:hidden lg:block">
                             <input type="text" placeholder="Search"
-                                class="border-none rounded-full p-3 outline-0 hidden md:hidden lg:block lg:w-96" />
+                                class="border-none rounded-full p-3 outline-0 lg:w-96" />
+                            <button class="absolute top-3 right-5"><i class="fa-solid fa-magnifying-glass"></i></button>
                         </div>
                         <div class="dropdown dropdown-end lg:hidden">
                             <div class="flex-none">
@@ -757,4 +758,5 @@
         <p class="text-white">Copyright © 2023 - All right reserved</p>
     </div>
 </footer>
+
 </html>
