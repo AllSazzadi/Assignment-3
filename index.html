@@ -34,8 +34,8 @@
     </style>
 </head>
 
-<body class="font-lato px-4 lg:px-0">
-    <header>
+<body class="font-lato">
+    <header class="px-4 lg:px-0">
         <!-- NAvigation Section Start -->
         <section class="container mx-auto">
             <div class="">
@@ -195,7 +195,7 @@
 
     </header>
 
-    <main>
+    <main class="px-4 lg:px-0">
         <!-- Deal of the day Section Start -->
         <section class="container mx-auto">
             <!-- Count Down -->
@@ -270,14 +270,13 @@
                                     class="bg-prime-color mask mask-star-2 mask-half-2" />
                             </div>
                             <div class="card-actions">
-                                <!-- Open the modal using ID.showModal() method -->
                                 <button class="text-prime-color font-bold"
                                     onclick="my_modal_one.showModal()">Detail</button>
                                 <dialog id="my_modal_one" class="modal">
                                     <form method="dialog" class="modal-box">
                                         <div class="card w-auto bg-base-100">
                                             <figure class="px-10 pt-10">
-                                                <img src="media/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                                                <img src="media/images/fruit6.png" alt="Image" class="rounded-xl" />
                                             </figure>
                                             <div class="card-body items-center text-center">
                                                 <h2 class="card-title text-2xl font-bold">Apples</h2>
@@ -354,14 +353,13 @@
                                     class="bg-prime-color mask mask-star-2 mask-half-2" />
                             </div>
                             <div class="card-actions">
-                                <!-- Open the modal using ID.showModal() method -->
                                 <button class="text-prime-color font-bold"
                                     onclick="my_modal_two.showModal()">Detail</button>
                                 <dialog id="my_modal_two" class="modal">
                                     <form method="dialog" class="modal-box">
                                         <div class="card w-auto bg-base-100">
                                             <figure class="px-10 pt-10">
-                                                <img src="media/images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                                                <img src="media/images/fruit7.png" alt="Image" class="rounded-xl" />
                                             </figure>
                                             <div class="card-body items-center text-center">
                                                 <h2 class="card-title text-2xl font-bold">Orange</h2>
@@ -438,14 +436,13 @@
                                     class="bg-prime-color mask mask-star-2 mask-half-2" />
                             </div>
                             <div class="card-actions">
-                                <!-- Open the modal using ID.showModal() method -->
                                 <button class="text-prime-color font-bold"
                                     onclick="my_modal_three.showModal()">Detail</button>
                                 <dialog id="my_modal_three" class="modal">
                                     <form method="dialog" class="modal-box">
                                         <div class="card w-auto bg-base-100">
                                             <figure class="px-10 pt-10">
-                                                <img src="media/images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                                                <img src="media/images/fruit8.png" alt="Image" class="rounded-xl" />
                                             </figure>
                                             <div class="card-body items-center text-center">
                                                 <h2 class="card-title text-2xl font-bold">Red Dragon</h2>
@@ -522,14 +519,13 @@
                                     class="bg-prime-color mask mask-star-2 mask-half-2" />
                             </div>
                             <div class="card-actions">
-                                <!-- Open the modal using ID.showModal() method -->
                                 <button class="text-prime-color font-bold"
                                     onclick="my_modal_four.showModal()">Detail</button>
                                 <dialog id="my_modal_four" class="modal">
                                     <form method="dialog" class="modal-box">
                                         <div class="card w-auto bg-base-100">
                                             <figure class="px-10 pt-10">
-                                                <img src="media/images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                                                <img src="media/images/fruit9.png" alt="Image" class="rounded-xl" />
                                             </figure>
                                             <div class="card-body items-center text-center">
                                                 <h2 class="card-title text-2xl font-bold">Banana</h2>
@@ -729,34 +725,35 @@
         </section>
 
     </main>
-</body>
-<footer class="footer footer-center mt-10 p-10 bg-[#121212] text-base-content rounded">
 
-    <div class="flex-1 flex">
-        <img src="media/images/logo.png" alt="">
-        <h1 class="text-white text-4xl font-black">Fruit Burst</h1>
-    </div>
-    <div class="grid grid-flow-col gap-4 text-white">
-        <a class="link link-hover">Home</a>
-        <a class="link link-hover">About Us</a>
-        <a class="link link-hover">Shop</a>
-        <a class="link link-hover">All Fruits</a>
-        <a class="link link-hover">Support</a>
-        <a class="link link-hover">My Account</a>
-    </div>
-    <div>
-        <div class="grid grid-flow-col gap-8">
-            <a><i class="fa-brands fa-twitter fa-lg text-white"></i></a>
-            <a><i class="fa-brands fa-facebook-f fa-lg text-white"></i></a>
-            <a><i class="fa-brands fa-youtube fa-lg text-white"></i></a>
-            <a><i class="fa-brands fa-linkedin-in fa-lg text-white"></i></a>
-            <a><i class="fa-brands fa-instagram fa-lg text-white"></i></a>
-            <a><i class="fa-brands fa-apple fa-lg text-white"></i></a>
+    <footer class="footer footer-center mt-10 px-0 py-10 bg-[#121212] text-base-content rounded">
+
+        <div class="flex-1 flex">
+            <img src="media/images/logo.png" alt="">
+            <h1 class="text-white text-4xl font-black">Fruit Burst</h1>
         </div>
-    </div>
-    <div>
-        <p class="text-white">Copyright © 2023 - All right reserved</p>
-    </div>
-</footer>
+        <div class="grid grid-flow-col gap-4 text-white">
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">About Us</a>
+            <a class="link link-hover">Shop</a>
+            <a class="link link-hover">All Fruits</a>
+            <a class="link link-hover">Support</a>
+            <a class="link link-hover">My Account</a>
+        </div>
+        <div>
+            <div class="grid grid-flow-col gap-8">
+                <a><i class="fa-brands fa-twitter fa-lg text-white"></i></a>
+                <a><i class="fa-brands fa-facebook-f fa-lg text-white"></i></a>
+                <a><i class="fa-brands fa-youtube fa-lg text-white"></i></a>
+                <a><i class="fa-brands fa-linkedin-in fa-lg text-white"></i></a>
+                <a><i class="fa-brands fa-instagram fa-lg text-white"></i></a>
+                <a><i class="fa-brands fa-apple fa-lg text-white"></i></a>
+            </div>
+        </div>
+        <div>
+            <p class="text-white">Copyright © 2023 - All right reserved</p>
+        </div>
+    </footer>
+</body>
 
 </html>
